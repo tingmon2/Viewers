@@ -1,3 +1,4 @@
+// inject this code to config file
 window.config = {
   routerBasename: '/',
   // whiteLabeling: {},
