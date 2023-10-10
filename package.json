@@ -55,7 +55,7 @@
     "lerna:restore": "./netlify-lerna-restore.sh",
     "lerna:customVersion": "node version.mjs",
     "link-list": "npm ls --depth=0 --link=true",
-    "deploy": "lerna run build:viewer --stream && aws s3 sync platform/app/dist/ s3://testohif-claripi --acl public-read"
+    "deploy": "lerna run build:viewer --stream && aws s3 sync platform/app/dist/ s3://testohif-orthanc-cors --acl public-read"
   },
   "dependencies": {
     "@babel/runtime": "^7.20.13",
